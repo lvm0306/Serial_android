@@ -1,0 +1,6 @@
+{
+  "serialFile": "/dev/ttyS3",
+  "baudRate": 115200,
+  "flags": 0,
+  "bufsize": 2048
+}
