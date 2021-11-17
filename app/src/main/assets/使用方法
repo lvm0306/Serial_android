@@ -1,0 +1,12 @@
+1.初始化
+为了获取Context对象
+MConfig.init(getApplication());
+2.扩展方法
+继承MSerialPort
+重写 recvData
+增加xxx.json 配置文件
+
+3.使用开始 两种方式
+a.不需要回调参考-> TDeviceProvide
+b.需要回调参考-> TCardProvide
+

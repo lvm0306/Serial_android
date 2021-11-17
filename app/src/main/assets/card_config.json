@@ -1,0 +1,6 @@
+{
+  "serialFile": "/dev/ttyS1",
+  "baudRate": 9600,
+  "flags": 0,
+  "bufsize": 2048
+}

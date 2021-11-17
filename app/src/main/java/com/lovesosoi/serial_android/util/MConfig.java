@@ -2,9 +2,6 @@ package com.lovesosoi.serial_android.util;
 
 import android.annotation.SuppressLint;
 import android.app.Application;
-import android.content.Context;
-
-import com.lovesosoi.serial_android.DevicePort;
 
 public class MConfig {
 

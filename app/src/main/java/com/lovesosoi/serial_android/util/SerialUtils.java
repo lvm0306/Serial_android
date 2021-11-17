@@ -37,4 +37,12 @@ public class SerialUtils {
         }
         return new String(hexChars);
     }
+
+    public static String parserByteToCardNoTx260t(byte[] bs) {
+        if (bs == null || bs.length < 12) return "";
+        byte[] buf = new byte[8];
+        System.arraycopy(bs, 3, buf, 0, buf.length);
+        String num = bytesToHex(buf);
+        return num;
+    }
 }

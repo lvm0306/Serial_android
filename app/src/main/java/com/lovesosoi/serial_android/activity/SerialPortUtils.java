@@ -1,4 +1,4 @@
-package com.lovesosoi.serial_android;
+package com.lovesosoi.serial_android.activity;
 
 import android.util.Log;
 
